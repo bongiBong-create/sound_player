@@ -4,7 +4,7 @@ const wavesurfer = WaveSurfer.create({
   container: document.body,
   waveColor: "rgb(200, 0, 200)",
   progressColor: "rgb(100, 0, 100)",
-  url: "/audio/POPARRANGE116DMINOR[DEMO].mp3",
+  url: "./audio/POPARRANGE116DMINOR[DEMO].mp3",
 });
 
 document.querySelectorAll("button").forEach((btn) => {
